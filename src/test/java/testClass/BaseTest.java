@@ -36,7 +36,7 @@ public class BaseTest {
 			driver = new FirefoxDriver();
 		}
 			
-		
+		// maximize the page
 		
 		driver.manage().window().maximize();
 		
