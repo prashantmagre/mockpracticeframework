@@ -15,6 +15,8 @@ public class ScreenShots {
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		
 		File screenshot = ts.getScreenshotAs(OutputType.FILE);
+
+
 		
 		String path = System.getProperty("user.dir")+"\\screenshots\\"+filename+".png";
 		File destinationpath = new File(path);
